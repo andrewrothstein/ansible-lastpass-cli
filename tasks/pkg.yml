@@ -1,0 +1,7 @@
+---
+- name: install lastpass-cli package...
+  become: yes
+  become_user: root
+  package:
+    name: lastpass-cli
+    state: present
