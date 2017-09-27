@@ -10,4 +10,4 @@
       paths:
         - '{{role_path}}/vars'
 
-- include: '{{lastpass_cli_installer|default("pkg")}}.yml'
+- include_tasks: '{{lastpass_cli_installer|default("pkg")}}.yml'
