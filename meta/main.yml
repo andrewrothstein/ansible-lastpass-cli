@@ -15,12 +15,15 @@ galaxy_info:
         - 23
         - 24
         - 25
+        - 26
+        - 27
     - name: Ubuntu
       versions:
         - xenial
     - name: Debian
       versions:
         - jessie
+        - stretch
   galaxy_tags:
     - development
 
