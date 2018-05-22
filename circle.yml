@@ -14,6 +14,7 @@ test:
     - ? |
           circle-matrix <<"EHD"
             env:
+              - OS=archlinux_latest
               - OS=centos_7
               - OS=fedora_23
               - OS=fedora_24
