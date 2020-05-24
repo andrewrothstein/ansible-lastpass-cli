@@ -27,4 +27,6 @@ galaxy_info:
   galaxy_tags:
     - development
 
-dependencies: []
+dependencies:
+  - role: andrewrothstein.epel
+    version: v1.1.0
